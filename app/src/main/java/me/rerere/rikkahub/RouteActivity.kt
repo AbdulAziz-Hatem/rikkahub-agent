@@ -1,3 +1,232 @@
-cGFja2FnZSBtZS5yZXJlcmUucmlra2FodWIKCmltcG9ydCBhbmRyb2lkLmFubm90YXRpb24uU3VwcHJlc3NMaW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC52aWV3LktleUV2ZW50CmltcG9ydCBhbmRyb2lkLnhhY3Rpdml0eS5Db21wb25lbnRBY3Rpdml0eQppbXBvcnQgYW5kcm9pZC54YWN0aXZpdHkuY29tcG9zZS5zZXRDb250ZW50CmltcG9ydCBhbmRyb2lkLnhhY3Rpdml0eS5lbmFibGVFZGdlVG9FZGdlCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5CmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5hbmltYXRpb24uU2hhcmVkVHJhbnNpdGlvbkxheW91dAppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UuYW5pbWF0aW9uLmZhZGVJbgppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UuYW5pbWF0aW9uLmZhZGVPdXQKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLmFuaW1hdGlvbi5zY2FsZUluCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5hbmltYXRpb24uc2NhbGVPdXQKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLmFuaW1hdGlvbi5zbGlkZUluSG9yaXpvbnRhbGx5CmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5hbmltYXRpb24uc2xpZGVPdXRIb3Jpem9udGFsbHkKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLmFuaW1hdGlvbi50b2dldGhlcldpdGgKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UubWF0ZXJpYWwzLkNpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5ydW50aW1lLkNvbXBvc2l0aW9uTG9jYWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZC54YWNvbXBvc2UucnVudGltZS5TaWRlRWZmZWN0CmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkLnhhY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkLnh4YWNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkLnh4YWNvbXBvc2UudWkuRXhwZXJpbWVudGFsQ29tcG9zZVVpQXBpCmltcG9ydCBhbmRyb2lkLnh4YWNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWQueGFjb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZC54eGFjb21wb3NlLnVpLnNlbWFudGljcy5zZW1hbnRpY3MKaW1wb3J0IGFuZHJvaWQueHhhY29tcG9zZS51aS5zZW1hbnRpY3MudGVzdFRhZ3NBc1Jlc291cmNlSWQKaW1wb3J0IGFuZHJvaWQueHh4YWNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZC54Y29yZS5uZXQudG9VcmkKaW1wb3J0IGFuZHJvaWQueGxpZmVjeWNsZS5jb21wb3NlLmNvbGxlY3RBc1N0YXRlV2l0aExpZmVjeWNsZQppbXBvcnQgYW5kcm9pZC54bGlmZWN5Y2xlLnZpZXdtb2RlbC5uYXZpZ2F0aW9uMy5yZW1lbWJlclZpZXdNb2RlbFN0b3JlTmF2RW50cnlEZWNvcmF0b3IKaW1wb3J0IGFuZHJvaWQueG5hdmlnYXRpb24zLnJ1bnRpbWUuTmF2S2V5CmltcG9ydCBhbmRyb2lkLnhhdmlnYXRpb24zLnJ1bnRpbWUuZW50cnlQcm92aWRlcgppbXBvcnQgYW5kcm9pZC54YXZpZ2F0aW9uMy5ydW50aW1lLnJlbWVtYmVyTmF2QmFja1N0YWNrCmltcG9ydCBhbmRyb2lkLnhhdmlnYXRpb24zLnJ1bnRpbWUucmVtZW1iZXJTYXZlYWJsZVN0YXRlSG9sZGVyTmF2RW50cnlEZWNvcmF0b3IKaW1wb3J0IGFuZHJvaWQueGF2aWdh]]
+package me.rerere.rikkahub
 
-RkxLAwQIAAAAAACBAAgAAAAAAAABAIAAAAAAAAEAAQAAAAAAAHB hcmVhLmNvbXBvc2Uuc2VuZE1lc3NhZ2UgfQoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.view.KeyEvent
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.SharedTransitionLayout
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
+import androidx.compose.ui.unit.dp
+import androidx.core.net.toUri
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDecorator
+import androidx.navigation3.runtime.NavKey
+import androidx.navigation3.runtime.entryProvider
+import androidx.navigation3.runtime.rememberNavBackStack
+import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
+import androidx.navigation3.ui.NavDisplay
+import coil3.ImageLoader
+import coil3.compose.setSingletonImageLoaderFactory
+import coil3.gif.AnimatedImageDecoder
+import coil3.gif.GifDecoder
+import coil3.network.cachecontrol.CacheControlCacheStrategy
+import coil3.network.okhttp.OkHttpNetworkFetcherFactory
+import coil3.request.crossfade
+import coil3.svg.SvgDecoder
+import com.dokar.sonner.Toaster
+import com.dokar.sonner.rememberToasterState
+import kotlinx.serialization.Serializable
+import me.rerere.highlight.Highlighter
+import me.rerere.highlight.LocalHighlighter
+import me.rerere.rikkahub.data.datastore.SettingsStore
+import me.rerere.rikkahub.data.datastore.DEFAULT_CODEX_PROVIDER_ID
+import me.rerere.rikkahub.data.db.DatabaseMigrationTracker
+import me.rerere.rikkahub.data.db.MigrationState
+import me.rerere.rikkahub.data.event.AppEvent
+import me.rerere.rikkahub.data.event.AppEventBus
+import me.rerere.rikkahub.ui.activity.SafeModeActivity
+import me.rerere.rikkahub.ui.components.ui.TTSController
+import me.rerere.rikkahub.ui.context.LocalNavController
+import me.rerere.rikkahub.ui.context.LocalASRState
+import me.rerere.rikkahub.ui.context.LocalSettings
+import me.rerere.rikkahub.ui.context.LocalSharedTransitionScope
+import me.rerere.rikkahub.ui.context.LocalTTSState
+import me.rerere.rikkahub.ui.context.LocalToaster
+import me.rerere.rikkahub.ui.context.Navigator
+import me.rerere.rikkahub.ui.hooks.readBooleanPreference
+import me.rerere.rikkahub.ui.hooks.readStringPreference
+import me.rerere.rikkahub.ui.hooks.rememberCustomTtsState
+import me.rerere.rikkahub.ui.hooks.rememberCustomAsrState
+import me.rerere.rikkahub.ui.pages.assistant.AssistantPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantBasicPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantDetailPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantExtensionsPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantLocalToolPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantMcpPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantMemoryPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantPromptPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantRequestPage
+import me.rerere.rikkahub.ui.pages.assistant.detail.AssistantSubAgentPage
+import me.rerere.rikkahub.ui.pages.backup.BackupPage
+import me.rerere.rikkahub.ui.pages.chat.ChatPage
+import me.rerere.rikkahub.ui.pages.debug.DebugPage
+import me.rerere.rikkahub.ui.pages.developer.DeveloperPage
+import me.rerere.rikkahub.ui.pages.extensions.ExtensionsPage
+import me.rerere.rikkahub.ui.pages.extensions.PromptPage
+import me.rerere.rikkahub.ui.pages.extensions.QuickMessagesPage
+import me.rerere.rikkahub.ui.pages.extensions.skills.SkillDetailPage
+import me.rerere.rikkahub.ui.pages.extensions.skills.SkillsPage
+import me.rerere.rikkahub.ui.pages.extensions.workspace.WorkspaceDetailPage
+import me.rerere.rikkahub.ui.pages.extensions.workspace.WorkspacePage
+import me.rerere.rikkahub.ui.pages.extensions.workspace.WorkspaceTerminalPage
+import me.rerere.rikkahub.ui.pages.favorite.FavoritePage
+import me.rerere.rikkahub.ui.pages.history.HistoryPage
+import me.rerere.rikkahub.ui.pages.imggen.ImageGenPage
+import me.rerere.rikkahub.ui.pages.log.LogPage
+import me.rerere.rikkahub.ui.pages.search.SearchPage
+import me.rerere.rikkahub.ui.pages.setting.SettingAboutPage
+import me.rerere.rikkahub.ui.pages.setting.SettingAccessibilityPage
+import me.rerere.rikkahub.ui.pages.setting.SettingNotificationsPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPermissionsPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPreferencesPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPreferencesThemePage
+import me.rerere.rikkahub.ui.pages.setting.SettingPreferencesNotificationPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPreferencesGeneralPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPreferencesUIPage
+import me.rerere.rikkahub.ui.pages.setting.SettingThemePage
+import me.rerere.rikkahub.ui.pages.setting.SettingDonatePage
+import me.rerere.rikkahub.ui.pages.setting.SettingFilesPage
+import me.rerere.rikkahub.ui.pages.setting.SettingMcpPage
+import me.rerere.rikkahub.ui.pages.setting.SettingModelPage
+import me.rerere.rikkahub.ui.pages.setting.SettingPage
+import me.rerere.rikkahub.ui.pages.setting.SettingProviderDetailPage
+import me.rerere.rikkahub.ui.pages.setting.SettingProviderPage
+import me.rerere.rikkahub.ui.pages.setting.SettingSearchDetailPage
+import me.rerere.rikkahub.ui.pages.setting.SettingSearchPage
+import me.rerere.rikkahub.ui.pages.setting.SettingTTSPage
+import me.rerere.rikkahub.ui.pages.setting.SettingSpeechPage
+import me.rerere.rikkahub.ui.pages.setting.SettingTelegramPage
+import me.rerere.rikkahub.ui.pages.setting.SettingWebPage
+import me.rerere.rikkahub.ui.pages.share.handler.ShareHandlerPage
+import me.rerere.rikkahub.ui.pages.stats.StatsPage
+import me.rerere.rikkahub.ui.pages.translator.TranslatorPage
+import me.rerere.rikkahub.ui.pages.webview.WebViewPage
+import me.rerere.rikkahub.ui.theme.LocalDarkMode
+import me.rerere.rikkahub.ui.theme.RikkahubTheme
+import me.rerere.rikkahub.utils.CrashHandler
+import okhttp3.OkHttpClient
+import org.koin.android.ext.android.inject
+import org.koin.compose.koinInject
+import kotlin.uuid.Uuid
+
+private const val TAG = "RouteActivity"
+
+class RouteActivity : ComponentActivity() {
+    companion object {
+        const val EXTRA_OPEN_CODEX_SETTINGS = "open_codex_settings"
+    }
+
+    private val highlighter by inject<Highlighter>()
+    private val okHttpClient by inject<OkHttpClient>()
+    private val settingsStore by inject<SettingsStore>()
+    private var navStack: MutableList<NavKey>? = null
+
+    // Volume key listener registry — last registered handler wins
+    internal val volumeKeyListeners = mutableListOf<(isVolumeUp: Boolean) -> Boolean>()
+
+    @SuppressLint("RestrictedApi")
+    override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+        if (event.action == KeyEvent.ACTION_DOWN) {
+            val isVolumeUp = when (event.keyCode) {
+                KeyEvent.KEYCODE_VOLUME_UP -> true
+                KeyEvent.KEYCODE_VOLUME_DOWN -> false
+                else -> return super.dispatchKeyEvent(event)
+            }
+            if (volumeKeyListeners.lastOrNull()?.invoke(isVolumeUp) == true) return true
+        }
+        return super.dispatchKeyEvent(event)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
+        disableNavigationBarContrast()
+        super.onCreate(savedInstanceState)
+        if (CrashHandler.hasCrashed(this)) {
+            startActivity(Intent(this, SafeModeActivity::class.java))
+            finish()
+            return
+        }
+        setContent {
+            RikkahubTheme {
+                @OptIn(coil3.annotation.ExperimentalCoilApi::class)
+                setSingletonImageLoaderFactory { context ->
+                    ImageLoader.Builder(context)
+                        .crossfade(true)
+                        .components {
+                            add(OkHttpNetworkFetcherFactory(
+                                callFactory = { okHttpClient },
+                                cacheStrategy = { CacheControlCacheStrategy() },
+                            ))
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+                                add(AnimatedImageDecoder.Factory())
+                            } else {
+                                add(GifDecoder.Factory())
+                            }
+                            add(SvgDecoder.Factory(scaleToDensity = true))
+                        }
+                        .build()
+                }
+                AppRoutes()
+            }
+        }
+    }
+
+    private fun disableNavigationBarContrast() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            window.isNavigationBarContrastEnforced = false
+        }
+    }
+
+    @Composable
+    private fun ShareHandler(backStack: MutableList<NavKey>) {
+        val shareIntent = remember {
+            Intent().apply {
+                action = intent?.action
+                putExtra(Intent.EXTRA_TEXT, intent?.getStringExtra(Intent.EXTRA_TEXT))
+                putExtra(Intent.EXTRA_STREAM, intent?.getStringExtra(Intent.EXTRA_STREAM))
+                putExtra(Intent.EXTRA_PROCESS_TEXT, intent?.getCharSequenceExtra(Intent.EXTRA_PROCESS_TEXT))
+            }
+        }
+
+        LaunchedEffect(backStack) {
+            when (shareIntent.action) {
+                Intent.ACTION_SEND -> {
+                    val text = shareIntent.getStringExtra(Intent.EXTRA_TEXT) ?: ""
+                    val imageUri = shareIntent.getStringExtra(Intent.EXTRA_STREAM)
+                    backStack.add(Screen.ShareHandler(text, imageUri))
+                }
+
+                Intent.ACTION_PROCESS_TEXT -> {
+                    val text = s
