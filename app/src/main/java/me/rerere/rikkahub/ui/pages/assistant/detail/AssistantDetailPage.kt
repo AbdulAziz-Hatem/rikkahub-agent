@@ -9,6 +9,7 @@ import me.rerere.hugeicons.stroke.Message02
 import me.rerere.hugeicons.stroke.Settings03
 import me.rerere.hugeicons.stroke.Puzzle
 import me.rerere.hugeicons.stroke.Wrench01
+import me.rerere.hugeicons.stroke.UsersGroup01
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Column
@@ -140,6 +141,13 @@ fun AssistantDetailPage(id: String) {
                         leadingContent = { Icon(HugeIcons.BookOpen01, null) },
                         supportingContent = { Text(stringResource(R.string.assistant_detail_local_tools_desc)) },
                         headlineContent = { Text(stringResource(R.string.assistant_page_tab_local_tools)) },
+                        trailingContent = { Icon(HugeIcons.ArrowRight01, null) },
+                    )
+                    item(
+                        onClick = { navController.navigate(Screen.AssistantSubAgent(id)) },
+                        leadingContent = { Icon(HugeIcons.UsersGroup01, null) },
+                        supportingContent = { Text(stringResource(R.string.assistant_detail_sub_agent_desc)) },
+                        headlineContent = { Text(stringResource(R.string.assistant_page_tab_sub_agents)) },
                         trailingContent = { Icon(HugeIcons.ArrowRight01, null) },
                     )
                 }
