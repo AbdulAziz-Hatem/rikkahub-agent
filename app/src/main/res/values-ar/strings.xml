@@ -8,6 +8,8 @@
   <string name="about_page_website">الموقع الإلكتروني</string>
   <string name="add">إضافة</string>
   <string name="app_name">RikkaHub Agent</string>
+  <string name="asr_button_content_description">التعرف على الكلام</string>
+  <string name="asr_button_stop">إيقاف</string>
   <string name="assistant_detail_basic_desc">تكوين الاسم والصورة الرمزية والنموذج والمعاملات</string>
   <string name="assistant_detail_extensions_desc">إدارة الرسائل السريعة وحقن التوجيهات وكتب المعرفة والمهارات</string>
   <string name="assistant_detail_local_tools_desc">تمكين الأدوات المحلية مثل محرك JavaScript</string>
@@ -40,6 +42,10 @@
   <string name="assistant_page_add">إضافة</string>
   <string name="assistant_page_add_body">إضافة جسم</string>
   <string name="assistant_page_add_header">إضافة ترويسة</string>
+  <string name="assistant_page_allow_conversation_system_prompt">توجيه نظام خاص بالمحادثة</string>
+  <string name="assistant_page_allow_conversation_system_prompt_desc">السماح لكل محادثة بتجاوز توجيه النظام الخاص بالمساعد</string>
+  <string name="assistant_page_allow_conversation_prompt_injection">حقن توجيهات خاص بالمحادثة</string>
+  <string name="assistant_page_allow_conversation_prompt_injection_desc">السماح لكل محادثة بربط حقن التوجيهات وكتب المعرفة الخاصة بها</string>
   <string name="assistant_page_available_variables">"المتغيرات المتاحة: "</string>
   <string name="assistant_page_background_opacity">شفافية الخلفية</string>
   <string name="assistant_page_background_opacity_desc">ضبط وضوح صورة خلفية الدردشة</string>
@@ -135,6 +141,14 @@
   <string name="setting_page_telegram_battery_needed">تحسين البطارية: ليس في القائمة البيضاء - انقر للإصلاح</string>
   <string name="setting_page_telegram_battery_desc">عند إطفاء الشاشة، تقطع أنظمة OEM العدوانية (Xiaomi، OPPO، OnePlus، Vivo) الشبكة عن التطبيقات غير المدرجة في القائمة البيضاء. لن يتمكن البوت من التسليم إلا أثناء فترات الصيانة العرضية. انقر لإضافة RikkaHub إلى القائمة البيضاء.</string>
   <string name="setting_page_telegram_battery_already_ok">مُضاف بالفعل إلى القائمة البيضاء لتحسين البطارية.</string>
+  <string name="setting_page_telegram_proxy_enabled">الوكيل (Proxy)</string>
+  <string name="setting_page_telegram_proxy_enabled_desc">توجيه اتصالات شبكة البوت عبر خادم وكيل (Proxy). يجب إيقاف البوت للتعديل.</string>
+  <string name="setting_page_telegram_proxy_type">نوع الوكيل</string>
+  <string name="setting_page_telegram_proxy_type_desc">لا يدعم SOCKS5 المصادقة، لذلك ينطبق اسم المستخدم/كلمة المرور أدناه على HTTP فقط.</string>
+  <string name="setting_page_telegram_proxy_host">مضيف الوكيل</string>
+  <string name="setting_page_telegram_proxy_port">منفذ الوكيل</string>
+  <string name="setting_page_telegram_proxy_username">اسم مستخدم الوكيل</string>
+  <string name="setting_page_telegram_proxy_password">كلمة مرور الوكيل</string>
   <string name="assistant_page_local_tools_media_player_desc">تشغيل وإيقاف الصوت من مسار ملف أو رابط.</string>
   <string name="assistant_page_local_tools_media_player_title">مشغّل الوسائط</string>
   <string name="assistant_page_local_tools_media_scanner_desc">إخطار ماسح الوسائط في Android بالملفات الجديدة لتظهر في تطبيقات المعرض/الموسيقى.</string>
@@ -331,7 +345,7 @@
   <string name="setting_page_tool_approvals_yolo_on">🚨 مُفعَّل. كل أداة تعمل دون مطالبة. حظر HARDLINE (rm -rf /، mkfs، shutdown …) لا يزال ساريًا.</string>
   <string name="setting_page_tool_approvals_yolo_off">مُعطَّل. الأدوات ذات الأثر الجانبي تطلب موافقة قبل التشغيل.</string>
   <string name="setting_page_tool_approvals_yolo_dialog_title">إيقاف جميع مطالبات الموافقة؟</string>
-  <string name="setting_page_tool_approvals_yolo_dialog_body">كل أداة — الصدفة المحلية، SSH، كتابة الملفات، أتمتة الشاشة، الإرسال عبر Telegram، MCP — ستعمل دون سؤالك. يمكن للوكيل إرسال رسائل وتشغيل أوامر على مضيفين بعيدين والتقاط صور وكتابة ملفات وجدولة مهام، كل ذلك دون تأكيد.\n\nحماية HARDLINE لا تزال سارية: rm -rf /، mkfs، shutdown / reboot، dd إلى أجهزة الكتل، قنبلة fork، أنابيب الحمولات المُرمَّزة — تبقى هذه محظورة.\n\nهذا خيار خطير. لا تُفعِّله إلا إذا كنت تثق بأن النموذج + تكوين المساعد + توجيهاتك الخاصة ستتصرف بمسؤولية.</string>
+  <string name="setting_page_tool_approvals_yolo_dialog_body">كل أداة — الصدفة المحلية، SSH، كتابة الملفات، أتمتة الشاشة، الإرسال عبر Telegram، MCP — ستعمل دون سؤالك. يمكن للوكيل إرسال رسائل وتشغيل أوامر على مضيفين بعيدين والتقاط صور وكتابة ملفات وجدولة مهام، كل ذلك دون تأكيد.\\n\\nحماية HARDLINE لا تزال سارية: rm -rf /، mkfs، shutdown / reboot، dd إلى أجهزة الكتل، قنبلة fork، أنابيب الحمولات المُرمَّزة — تبقى هذه محظورة.\\n\\nهذا خيار خطير. لا تُفعِّله إلا إذا كنت تثق بأن النموذج + تكوين المساعد + توجيهاتك الخاصة ستتصرف بمسؤولية.</string>
   <string name="setting_page_tool_approvals_yolo_dialog_confirm">نعم، أنا غبي، فعّل</string>
   <string name="setting_page_tool_approvals_yolo_dialog_cancel">إبقاء الموافقات مُفعَّلة</string>
   <string name="chat_message_tool_edit_memory">تم تحديث ذاكرة</string>
@@ -863,7 +877,7 @@
   <string name="setting_provider_page_abilities">القدرات</string>
   <string name="setting_provider_page_add">إضافة</string>
   <string name="setting_provider_page_add_model">إضافة نموذج</string>
-  <string name="setting_provider_page_add_models_hint">انقر الزر أدناه لإضافة نماذج</string>
+  <string name="setting_provider_page_add_models_hint">انقر الزر أدناه للإضافة</string>
   <string name="setting_provider_page_add_new_model">إضافة نموذج جديد</string>
   <string name="setting_provider_page_add_provider">إضافة مزوّد</string>
   <string name="setting_provider_page_add_provider_override">إضافة تجاوز مزوّد</string>
@@ -1490,4 +1504,39 @@
   <string name="skill_detail_save_failed">فشل الحفظ</string>
   <string name="update_download_description">جارٍ تنزيل التحديث…</string>
   <string name="chat_stop_generation_before_delete">من فضلك أوقف التوليد قبل حذف الرسائل</string>
+
+  <!-- New complete translations -->
+  <string name="assistant_page_local_tools_web_fetch_title">جلب الويب</string>
+  <string name="assistant_page_local_tools_web_fetch_desc">أداة HTTP GET/POST خفيفة الوزن. مهلة 30 ثانية وحجم الاستجابة محدد بـ 8 كيلوبايت. تتطلب موافقة عند كل استدعاء.</string>
+  <string name="chat_page_move_to_folder">نقل إلى مجلد</string>
+  <string name="chat_page_remove_from_folder">إزالة من المجلد</string>
+  <string name="chat_page_create_folder">مجلد جديد</string>
+  <string name="chat_page_folder_name">اسم المجلد</string>
+  <string name="chat_page_rename_folder">إعادة تسمية المجلد</string>
+  <string name="chat_page_delete_folder">حذف المجلد</string>
+  <string name="chat_page_rename">إعادة تسمية</string>
+  <string name="chat_page_folder_default">دردشة</string>
+  <string name="chat_page_folder_add">جديد</string>
+  <string name="chat_page_delete_folder_confirm">حذف المجلد \"%1$s\"؟ لن يتم حذف المحادثات الموجودة بداخله، بل إزالتها فقط من المجلد.</string>
+  <string name="chat_page_delete_folder_generating">لا تزال بعض المحادثات في هذا المجلد تتولد. يرجى إيقافها قبل الحذف.</string>
+  <string name="assistant_page_context_message_limit">حد رسائل السياق</string>
+  <string name="assistant_page_context_message_limit_desc">يحدد الحد الأقصى لعدد الرسائل الأخيرة المرسلة للنموذج. عند تجاوز الحد، يتم تقليص السياق إلى النصف تقريباً في خطوة واحدة بدلاً من حذف رسالة واحدة بكل دور.</string>
+  <string name="assistant_page_context_message_limit_count">حد رسائل السياق: %d</string>
+  <string name="assistant_page_context_message_limit_unlimited">رسائل سياق غير محدودة</string>
+  <string name="assistant_page_context_message_limit_warning">تقييد السياق يلغي الذاكرة المؤقتة للتوجيه في كل مرة يقتطع فيها السياق.</string>
+  <string name="setting_model_page_enable_auto_compaction">تمكين ضغط السياق تلقائيًا</string>
+  <string name="setting_model_page_enable_auto_compaction_desc">تلخيص الرسائل الأقدم تلقائيًا عندما تقترب المحادثة من حد سياق النموذج</string>
+  <string name="setting_model_page_auto_compaction_threshold">عتبة الضغط</string>
+  <string name="setting_model_page_auto_compaction_threshold_desc">اختر حد السياق. يبدأ الضغط التلقائي عندما يصل التقدير إلى النسبة المئوية أو عدد الرموز المحدد.</string>
+  <string name="setting_model_page_auto_compaction_mode_percent">النسبة المئوية</string>
+  <string name="setting_model_page_auto_compaction_mode_tokens">عدد الرموز</string>
+  <string name="setting_model_page_auto_compaction_tokens">عتبة الرموز</string>
+  <string name="setting_model_page_auto_compaction_tokens_desc">أدخل العتبة بآلاف الرموز. على سبيل المثال، 8k تعني 8,000 رمز.</string>
+  <string name="setting_model_page_context_compaction_target">هدف الضغط</string>
+  <string name="setting_model_page_context_compaction_target_desc">اضبط حجم الملخص المستهدف بآلاف الرموز. اتركه فارغًا لاستخدام 1٪ من السياق الحالي.</string>
+  <string name="setting_model_page_auto_compaction_keep_tool_calls">الاحتفاظ بأحدث استدعاءات الأدوات</string>
+  <string name="setting_model_page_auto_compaction_keep_tool_calls_desc">يحافظ الضغط التلقائي على الإدخال والنتيجة الأصليين لهذه الاستدعاءات. اضبط القيمة على 0 لضغط السياق بالكامل.</string>
+  <string name="setting_model_page_response_stream_retries">محاولات إعادة تدفق Response API</string>
+  <string name="setting_model_page_response_stream_retries_desc">عند إغلاق تدفق Response API قبل اكتماله، أعد محاولة الطلب بهذا العدد من المرات. اضبطه على 0 لتعطيل إعادة المحاولة التلقائية.</string>
+  <string name="setting_model_page_response_stream_retries_input">الحد الأقصى لعدد المحاولات</string>
 </resources>
