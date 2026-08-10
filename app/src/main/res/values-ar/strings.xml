@@ -345,7 +345,7 @@
   <string name="setting_page_tool_approvals_yolo_on">🚨 مُفعَّل. كل أداة تعمل دون مطالبة. حظر HARDLINE (rm -rf /، mkfs، shutdown …) لا يزال ساريًا.</string>
   <string name="setting_page_tool_approvals_yolo_off">مُعطَّل. الأدوات ذات الأثر الجانبي تطلب موافقة قبل التشغيل.</string>
   <string name="setting_page_tool_approvals_yolo_dialog_title">إيقاف جميع مطالبات الموافقة؟</string>
-  <string name="setting_page_tool_approvals_yolo_dialog_body">كل أداة — الصدفة المحلية، SSH، كتابة الملفات، أتمتة الشاشة، الإرسال عبر Telegram، MCP — ستعمل دون سؤالك. يمكن للوكيل إرسال رسائل وتشغيل أوامر على مضيفين بعيدين والتقاط صور وكتابة ملفات وجدولة مهام، كل ذلك دون تأكيد.\\n\\nحماية HARDLINE لا تزال سارية: rm -rf /، mkfs، shutdown / reboot، dd إلى أجهزة الكتل، قنبلة fork، أنابيب الحمولات المُرمَّزة — تبقى هذه محظورة.\\n\\nهذا خيار خطير. لا تُفعِّله إلا إذا كنت تثق بأن النموذج + تكوين المساعد + توجيهاتك الخاصة ستتصرف بمسؤولية.</string>
+  <string name="setting_page_tool_approvals_yolo_dialog_body">كل أداة — الصدفة المحلية، SSH، كتابة الملفات، أتمتة الشاشة، الإرسال عبر Telegram، MCP — ستعمل دون سؤالك. يمكن للوكيل إرسال رسائل وتشغيل أوامر على مضيفين بعيدين والتقاط صور وكتابة ملفات وجدولة مهام، كل ذلك دون تأكيد.\n\nحماية HARDLINE لا تزال سارية: rm -rf /، mkfs، shutdown / reboot، dd إلى أجهزة الكتل، قنبلة fork، أنابيب الحمولات المُرمَّزة — تبقى هذه محظورة.\n\nهذا خيار خطير. لا تُفعِّله إلا إذا كنت تثق بأن النموذج + تكوين المساعد + توجيهاتك الخاصة ستتصرف بمسؤولية.</string>
   <string name="setting_page_tool_approvals_yolo_dialog_confirm">نعم، أنا غبي، فعّل</string>
   <string name="setting_page_tool_approvals_yolo_dialog_cancel">إبقاء الموافقات مُفعَّلة</string>
   <string name="chat_message_tool_edit_memory">تم تحديث ذاكرة</string>
@@ -1517,7 +1517,7 @@
   <string name="chat_page_rename">إعادة تسمية</string>
   <string name="chat_page_folder_default">دردشة</string>
   <string name="chat_page_folder_add">جديد</string>
-  <string name="chat_page_delete_folder_confirm">حذف المجلد \"%1$s\"؟ لن يتم حذف المحادثات الموجودة بداخله، بل إزالتها فقط من المجلد.</string>
+  <string name="chat_page_delete_folder_confirm">حذف المجلد "%1$s"؟ لن يتم حذف المحادثات الموجودة بداخله، بل إزالتها فقط من المجلد.</string>
   <string name="chat_page_delete_folder_generating">لا تزال بعض المحادثات في هذا المجلد تتولد. يرجى إيقافها قبل الحذف.</string>
   <string name="assistant_page_context_message_limit">حد رسائل السياق</string>
   <string name="assistant_page_context_message_limit_desc">يحدد الحد الأقصى لعدد الرسائل الأخيرة المرسلة للنموذج. عند تجاوز الحد، يتم تقليص السياق إلى النصف تقريباً في خطوة واحدة بدلاً من حذف رسالة واحدة بكل دور.</string>
