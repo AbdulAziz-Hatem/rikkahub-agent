@@ -756,7 +756,7 @@ private fun TopBar(
                         scope.launch { drawerState.open() }
                     }
                 ) {
-                    Icon(HugeIcons.Menu03, stringResource(R.string.chat_drawer_title))
+                    Icon(HugeIcons.Menu03, stringResource(R.string.menu))
                 }
             }
         },

@@ -37,9 +37,9 @@ val buildWebUi = tasks.register<Exec>("buildWebUi") {
 
     workingDir = webUiDir.asFile
     when {
-        Os.isFamily(Os.FAMILY_MAC) -> commandLine("zsh", "-ic", "pnpm run build")
-        Os.isFamily(Os.FAMILY_WINDOWS) -> commandLine("cmd", "/c", "pnpm run build")
-        else -> commandLine("pnpm", "run", "build")
+        Os.isFamily(Os.FAMILY_MAC) -> commandLine("zsh", "-ic", "bun run build")
+        Os.isFamily(Os.FAMILY_WINDOWS) -> commandLine("cmd", "/c", "bun run build")
+        else -> commandLine("bun", "run", "build")
     }
 
     inputs.files(

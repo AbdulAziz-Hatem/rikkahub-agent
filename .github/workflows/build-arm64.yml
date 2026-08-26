@@ -25,24 +25,8 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Set up Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
-
-      - name: Build Web UI Frontend
-        working-directory: web-ui
-        run: |
-          bun install --frozen-lockfile
-          pnpm run build
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
