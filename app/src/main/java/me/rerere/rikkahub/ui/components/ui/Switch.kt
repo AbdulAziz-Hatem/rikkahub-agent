@@ -98,13 +98,17 @@ fun Switch(
             .size(width = dimensions.trackWidth, height = dimensions.trackHeight)
             .clip(RoundedCornerShape(50))
             .background(currentTrackColor)
-            .toggleable(
-                value = checked,
-                enabled = enabled,
-                role = Role.Switch,
-                indication = null,
-                interactionSource = remember { MutableInteractionSource() },
-                onValueChange = onCheckedChange
+            .then(
+                if (onCheckedChange != null) {
+                    Modifier.toggleable(
+                        value = checked,
+                        enabled = enabled,
+                        role = Role.Switch,
+                        indication = null,
+                        interactionSource = remember { MutableInteractionSource() },
+                        onValueChange = onCheckedChange
+                    )
+                } else Modifier
             ),
         contentAlignment = Alignment.CenterStart
     ) {
